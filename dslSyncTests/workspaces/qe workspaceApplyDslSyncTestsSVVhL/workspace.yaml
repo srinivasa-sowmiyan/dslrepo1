@@ -1,0 +1,7 @@
+---
+apiVersion: cloudbees.com/v2026.3
+kind: workspace
+metadata:
+  name: qe workspaceApplyDslSyncTestsSVVhL
+spec:
+  zoneName: default
