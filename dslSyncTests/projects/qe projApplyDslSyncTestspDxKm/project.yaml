@@ -3,5 +3,7 @@ apiVersion: cloudbees.com/v2026.3
 kind: project
 metadata:
   name: qe projApplyDslSyncTestspDxKm
+  description: Automation backend tests
 spec:
-  tracked: true
+  tracked: false
+  workspaceName: default

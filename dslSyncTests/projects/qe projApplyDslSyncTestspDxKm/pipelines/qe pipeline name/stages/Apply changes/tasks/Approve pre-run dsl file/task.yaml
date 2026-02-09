@@ -3,6 +3,11 @@ apiVersion: cloudbees.com/v2026.3
 kind: task
 metadata:
   name: Approve pre-run dsl file
+  description: Automation backend tests
 spec:
   command: "{% cb_include_as_yaml_comment '../Approve pre-run dsl file.cmd' %}"
+  condition: "1"
+  enabled: false
+  errorHandling: continueOnError
+  shell: sh
   taskType: COMMAND

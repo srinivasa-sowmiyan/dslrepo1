@@ -3,3 +3,6 @@ apiVersion: cloudbees.com/v2026.3
 kind: stage
 metadata:
   name: Apply changes
+  description: Automation backend tests
+spec:
+  condition: "1"

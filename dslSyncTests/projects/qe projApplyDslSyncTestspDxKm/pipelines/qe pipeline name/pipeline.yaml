@@ -3,7 +3,10 @@ apiVersion: cloudbees.com/v2026.3
 kind: pipeline
 metadata:
   name: qe pipeline name
+  description: Automation backend tests
 spec:
+  disableRestart: true
+  enabled: false
   formalParameters:
     - name: ec_stagesToRun
       expansionDeferred: true
