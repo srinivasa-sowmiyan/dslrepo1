@@ -1,7 +1,5 @@
 
 application 'qe app 1', {
-
-  acl {
-    inheriting = '1'
-  }
+  description = 'GqMVTtBFxLlYwePNipDHFhnZBNqiKQDQSYpGRqmiUiSJiKjHgIDgrnBCOLxhSPacoYfESOqiQEgHCYABmLVgBLFqhlNbnrnboRCpAuejRCJhZnSsZMXWRsFwgjvrTHzfbWtvZwuCvMVLXLZAftojODWqeiSqVtriidzCDiLNzbOQDbflASIeOhOWmgpGqkOsGRWpuQLLypsJNUXwqcMigTkznwAlMrXiHhmoQtGHwGLmRoCGFRWCfmkdJoTJeyqbIFWxYctProqYwikNVJJJbprtcHDzGrLmUcGWkezgJXHMYxotkoBXqpaeiNpNUtncydUHNLWmicksPkDWBQqXKdxsnYMjQcoDIEIkyizSXEzMqSksERJPqclhSjimZDiUhyDEuAFTsRLlfIvfDHKBwOcFRPyjYFqIhvXmEjHAghUChvuceWplrBmyNDoBQxYWWn'
+  applicationType = 'external'
 }
