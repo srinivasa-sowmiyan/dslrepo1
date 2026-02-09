@@ -1,5 +1,0 @@
----
-apiVersion: cloudbees.com/v2026.3
-kind: application
-metadata:
-  name: qe app 1
