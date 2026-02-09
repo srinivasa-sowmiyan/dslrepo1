@@ -1,6 +1,0 @@
-apiVersion: cloudbees.com/v2026.3
-kind: property
-metadata:
-  name: ec_deploy
-spec:
-  propertyType: sheet
