@@ -3,5 +3,9 @@ apiVersion: cloudbees.com/v2026.3
 kind: workspace
 metadata:
   name: qe workspaceApplyDslSyncTestsxMDpb
+  description: Automation backend tests
 spec:
+  agentUnixPath: /tmp
+  local: true
+  workspaceDisabled: true
   zoneName: default
