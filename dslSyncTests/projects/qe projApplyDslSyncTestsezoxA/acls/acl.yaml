@@ -1,0 +1,12 @@
+---
+apiVersion: cloudbees.com/v2026.3
+kind: acl
+spec:
+  inheriting: true
+  aclEntries:
+    - principalType: user
+      principalName: "project: qe projApplyDslSyncTestsezoxA"
+      changePermissionsPrivilege: allow
+      executePrivilege: allow
+      modifyPrivilege: allow
+      readPrivilege: allow

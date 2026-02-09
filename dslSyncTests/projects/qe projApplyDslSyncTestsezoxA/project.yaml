@@ -1,0 +1,7 @@
+---
+apiVersion: cloudbees.com/v2026.3
+kind: project
+metadata:
+  name: qe projApplyDslSyncTestsezoxA
+spec:
+  tracked: true
