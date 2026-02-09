@@ -1,4 +1,6 @@
 
 project 'qe projApplyDslSyncTestsQYoST', {
-  tracked = '1'
+  description = 'Automation backend tests'
+  tracked = '0'
+  workspaceName = 'default'
 }

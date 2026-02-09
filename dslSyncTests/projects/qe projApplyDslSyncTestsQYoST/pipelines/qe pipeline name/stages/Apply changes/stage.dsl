@@ -1,7 +1,5 @@
 
 stage 'Apply changes', {
-
-  acl {
-    inheriting = '1'
-  }
+  description = 'Automation backend tests'
+  condition = '1'
 }
